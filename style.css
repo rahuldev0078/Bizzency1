@@ -1,0 +1,121 @@
+/* common css start */
+:root{
+    --primary-color: #0f2f44;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: o;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-50{
+    width: 50%;
+}
+.w-33{
+    width: celc(100% / 3);
+}
+.test- left{
+    text-align: left;
+}
+.test- right{
+    text-align: right;
+}
+.test- center{
+    text-align: center;
+}
+.test- justify{
+    text-align: justify;
+}
+.align- center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+/* common css end */
+/* top bar Section css start */
+#top_bar{
+    background-color: var(--primary-color);
+    color:#fefefe;
+}
+#top_bar.row{
+    font-size: 16px;
+    padding:12px;
+}
+/* top bar Section css end */
+/* nav bar Section css start */
+#nav .row{
+    align-items: center;
+    height: 95px;
+}
+ #nav li a{
+    padding:0 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    transition: 0.3s;
+}
+#nav li a:hover{
+    background-color:#fff9e6;
+    padding:30px 10px;
+    color:#ffc712;
+}
+/* nav bar Section css end */
+/* banner Section  start */
+#banner{
+    background-size: 100% 100%;
+    padding:200px 0;
+}
+#banner h2{
+    font-family: "Ubuntu", sans-serif;
+   font-weight:300;
+   font-size: 50px;
+   color: var(--primary-color);
+  line-height: 20px;
+}
+#banner h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 80px;
+}
+#banner h4{
+    line-height: 20px;
+    font-family:"Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size:32px;
+    letter-spacing: 18px;
+    color: #8484bf; 
+}
+#banner .banner_info p{
+    width:500px;
+    font-family:"Ubuntu", sans-serif; 
+    font-size: 14px;
+    line-height: 24px;
+    color:#444444;
+    margin:30px 0;
+}
+/* banner Section  end */
+
+
+
+
